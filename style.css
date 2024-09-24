@@ -1,0 +1,205 @@
+
+body{
+    background-color: rgba(255,234,213,1);
+    height: 70vh;
+    width: 100%;
+}
+.container{
+    display: block;
+    gap:2rem;
+    height: 100%;
+    background-color:rgba(198,172,147,0.9529936974789917);  
+}
+.container1{
+    position: relative;
+    display: inline-block;
+    height: 100px;
+    width: 92%;
+    margin-top: 0;
+    border: 10px solid rgba(198,172,147,0.9529936974789917);
+}
+.container1 img{
+    height: 300px;
+    border: 10px solid rgba(198,172,147,0.9529936974789917);    
+}
+nav{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+.logo{
+    width: 50px;
+    cursor: pointer;
+}
+nav ul{
+    list-style: none;
+    width: 90%;
+    text-align: right;
+    padding-right: 60px;
+}
+nav ul li{
+    display: inline-block;
+    margin: 10px 20px;
+}
+nav ul li a{
+    color: #000;
+    text-decoration: none;
+}
+.btn{
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+    background: #000;
+    color: palevioletred;
+    font-weight: 500;
+    cursor: pointer;
+}
+.btn img{
+    width: 30px;
+    margin-right: 10px;
+}
+.container1-text{
+    position: absolute;
+    top: 70%;
+    bottom: 0%;
+    left: 51%;
+    letter-spacing: 2px;
+    font-family:serif;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 20px;
+    text-align: left;
+}
+h1{
+    font-size: 2em;
+}
+.container1-text form{
+    display: flex;
+    align-items: center;
+    background-color: #000;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 30px;
+}
+.container1-text form input{
+    border: 0;
+    outline: 0;
+    width: 100%;
+    font-size: 16px;
+    padding-left: 10px;
+}
+.container1-text form .btn{
+    font-size: 15px;
+    padding: 10px 30px;
+
+}
+.container2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:10px;
+    height:40%
+    width: 100%;
+    margin-top: 2rem;
+    border:10px;
+}
+.hair{
+    margin-top: 2rem;
+    margin-bottom: 10px;
+}
+.beddings{
+    margin-top: 2rem;
+    margin-bottom: 10px;
+}
+.clothings{
+    margin-top: 2rem;
+    margin-bottom: 10px;
+}
+.about{
+    font-size: 20px;
+    font-family: sans-serif;
+    font-style: oblique;
+    text-align: left;
+    margin-top: 10px;
+}
+h3{
+    font-size: 25px;
+    font-family:sans-serif ;
+    text-align: left;
+}
+.container3{
+    position: relative;
+    display: inline-block;
+    height: 100px;
+    width: 100%;
+    margin-top: 2rem;
+    border: 10px
+}
+.container3 img{
+    height: 300px;
+}
+.contact-me{
+    position: absolute;
+    top: 2%;
+    bottom: 0%;
+    right: 40%;
+    font-family:sans-serif;
+    font-style: oblique;
+    font-weight: bolder;
+    font-size:16px;
+    text-align: left;
+    color: brown;
+}
+.contacts{
+    position: absolute;
+    top: 5%;
+    bottom: 0%;
+    left: 66%;
+    font-family:sans-serif;
+    font-style: initial;
+    font-weight: bolder;
+    font-size: 10px;
+    text-align: left;
+    color: brown;
+}
+.contacts p{
+    text-align: left;
+    color: black;
+    font-size: 11px;
+}
+h4{
+    font-size: 15px;
+    text-align: right;
+    font-style: italic;
+    font-weight: bolder;
+}
+.url{
+     background-color:rgba(255,234,213,1);
+     color: whitesmoke;
+     height: 10vh;
+     text-align: center;
+     margin-top: 10%;
+    }
+    .url p{
+        font-size: 20px;
+        text-align: center;
+        word-spacing: 30px;
+    }
+    footer{
+        background-color: palevioletred;
+        width: 100%;
+        text-align: justify;
+        font-size: 20px;
+    }
+@media(max-width:1250px){
+    .container{
+        height: 70vh;
+        width: 100%;
+         display: block;
+        }
+    }
